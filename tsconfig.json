@@ -3,7 +3,8 @@
     "target": "es6",
     "declaration": true,
     "outDir": "./dist",
-    "declarationMap": true
+    "rootDir": "./dist",
+    "declarationMap": true,
   },
   "include": [
     "src"
