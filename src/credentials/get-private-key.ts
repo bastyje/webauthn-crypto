@@ -8,7 +8,7 @@ export const getPrivateKey = async (
   const key = await getKey(salt, rawId, transports);
   const label = 'encryption key';
   const info = new TextEncoder().encode(label);
-  const salt1 = new Uint8Array();
+  const salt1 = new Uint8Array(32);
 
   return await crypto.subtle.deriveKey(
     { name: 'HKDF', info, salt: salt1, hash: 'SHA-256' },
