@@ -1,6 +1,6 @@
 {
   "name": "webauthn-crypto",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "scripts": {
     "build": "tsc --build",
@@ -18,7 +18,8 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "cryptography":
   },
   "main": "dist/index",
   "types": "dist/index",
