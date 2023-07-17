@@ -18,8 +18,7 @@
     "dist"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "cryptography":
+    ".": "./dist/index.js"
   },
   "main": "dist/index",
   "types": "dist/index",
